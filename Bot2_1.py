@@ -224,7 +224,7 @@ def grammatika():
 
  
 replies = [ "Да", "Нет" ]
-bot_session = vk_api.VkApi(token="0d0a7bd3bd782d92f0ee1482801dfa9e210bebe5a7a5d0695dfecdeb1981ec13ae7b87d101f86c6584ed2")
+bot_session = vk_api.VkApi(token="")
 bot_api = bot_session.get_api()
 longpoll = VkBotLongPoll(bot_session, "204973482")
 while True:
